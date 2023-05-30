@@ -1,0 +1,50 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(gambar/gambar1.png);
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+}
+
+.table1 {
+    font-family: 'Segoe UI';
+    color: #270d0d;
+    border-radius: 5px;
+    border: 2px solid #f2f5f7;
+}
+
+.table1 tr th{
+    background: #be7474;
+    color: #fff;
+    font-weight: normal;
+}
+
+.table1, th, td {
+    padding: 18px 40px;
+}
+
+.table1 tr:hover {
+    background-color: #e28a8a;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #be7474;
+}
+
+.table1 .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #d4aeec;
+    outline: none;
+    border-radius: 15px;
+    font-family: "Century Gothic";
+}
+
+.table1 tr td input{
+    padding: 10px;
+    border-radius: 10px;
+}
